@@ -1,0 +1,24 @@
+#include <stdio.h> 
+
+int main() 
+{ 
+	int A, B, c; 
+
+
+	printf("Enter two numbers A and B : \n"); 
+
+	
+	scanf("%d%d", &A, &B); 
+
+	
+	c = A*B; 
+
+	
+	printf("total of A and B is: %d", c); 
+
+	return 0; 
+}
+
+OUTPUt:
+Enter two numbers A and B : 5,6
+total of A and B is: 30
